@@ -1,0 +1,14 @@
+(module B (layer F.Cu) (tedit 5D207A6A)
+  (fp_text reference REF** (at 0 -1.9) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value B (at 0 0) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
+  (model "C:/Users/Windows 10/Desktop/Time/Hardware/B_blue.step"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

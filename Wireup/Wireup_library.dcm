@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BUTTON
+D SWITCH TACTILE SPST-NO 0.05A 15V
+K EG4621CT-ND TL3315
+F http://spec_sheets.e-switch.com/specs/P010337.pdf
+$ENDCMP
+#
+#End Doc Library

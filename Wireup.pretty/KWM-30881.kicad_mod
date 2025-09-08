@@ -1,0 +1,17 @@
+(module KWM-30881 (layer F.Cu) (tedit 5D40A4ED)
+  (fp_text reference REF** (at 0 -3.7) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value KWM-30881 (at 0 4.4) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -16 -16) (end -16 16) (layer F.SilkS) (width 0.15))
+  (fp_line (start -16 16) (end 16 16) (layer F.SilkS) (width 0.15))
+  (fp_line (start 16 16) (end 16 -16) (layer F.SilkS) (width 0.15))
+  (fp_line (start 16 -16) (end -16 -16) (layer F.SilkS) (width 0.15))
+  (model "C:/Users/Windows 10/Desktop/Time/Hardware/Datasheets/LED-Matrix-8x8-3mm-32x32.step"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)

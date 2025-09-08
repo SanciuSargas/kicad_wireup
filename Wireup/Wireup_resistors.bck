@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP R_0603
+D Resistor True Hole 1/4 Watts
+$ENDCMP
+#
+$CMP R_TH
+D Resistor True Hole 1/4 Watts
+$ENDCMP
+#
+#End Doc Library

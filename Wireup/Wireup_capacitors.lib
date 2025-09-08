@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# C_TH
+#
+DEF C_TH C 0 10 N Y 1 F N
+F0 "C" 40 100 50 H V L CNN
+F1 "C_TH" 50 -90 40 H V L CNN
+F2 "C_TH_5MM" 170 -150 30 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C -65 50 10 0 1 0 F
+P 2 0 1 10 -75 -25 75 -25 N
+P 2 0 1 10 -75 25 75 25 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
